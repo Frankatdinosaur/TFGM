@@ -4894,4 +4894,5 @@ a.text-danger:hover {
 #modal {
   position: fixed;
   top: 0;
+  margin: 0 auto;
   display: none; }
