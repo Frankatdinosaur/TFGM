@@ -72,10 +72,12 @@ $font-size-root:             16px !default;
 
 $font-size-base:             1rem !default;
 $font-size-lg:               1.25rem !default;
+$font-size-default:						1rem !default;
 $font-size-sm:               .875rem !default;
 $font-size-xs:               .75rem !default;
 
 .text-xs-right {font-size:$font-size-xs}
+.text-default-right {font-size:$font-size-default}
 
 $headings-font-family:       inherit !default;
 
