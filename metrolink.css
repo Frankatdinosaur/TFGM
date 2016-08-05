@@ -1,9 +1,3 @@
-.text-xs-right {
-  font-size: 0.75rem; }
-
-.text-default-right {
-  font-size: 1rem; }
-
 .alert {
   padding: 15px;
   margin-bottom: 1rem;
@@ -4891,3 +4885,13 @@ a.text-danger:hover {
     max-width: 72.25rem;
   }
 }*/
+.text-xs-right {
+  font-size: 0.75rem; }
+
+.text-default-right {
+  font-size: 1rem; }
+
+#modal {
+  position: fixed;
+  top: 0;
+  display: none; }
