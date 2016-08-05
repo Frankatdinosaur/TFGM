@@ -76,23 +76,11 @@ $font-size-default:						1rem !default;
 $font-size-sm:               .875rem !default;
 $font-size-xs:               .75rem !default;
 
+.text-xs-right {font-size:$font-size-xs}
+.text-default-right {font-size:$font-size-default}
+
 $headings-font-family:       inherit !default;
 
 
 @import 'bootstrap';
 @import 'pingendo-bootstrap';
-
-.text-xs-right {font-size:$font-size-xs}
-.text-default-right {font-size:$font-size-default}
-
-#modal {
-  position: fixed;
-  top: 20%;
-  width: 100%;
-  display: none;
-  
-  .container {
-    margin: 0 auto;
-  }
-}
-
